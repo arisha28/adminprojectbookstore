@@ -57,7 +57,7 @@ function getBookForEdit(id) {
                                 <td>{discount.discountName}</td>
                                 <td>{discount.discountType}</td>
                                 <td>{discount.discountValue}</td>
-                                {/* <td>{discount.book.bookTitle}</td> */}
+                                <td>{discount.book.bookTitle}</td>
                                 <td>{new Date(discount.validFrom).toLocaleDateString("en-GB")}</td>
                                 <td>{new Date(discount.validTo).toLocaleDateString("en-GB")}</td>
                                 
