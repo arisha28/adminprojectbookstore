@@ -10,6 +10,7 @@ import DiscountList from './pages/Discount/DiscountList'
 import DiscountForEdit from './pages/Discount/DiscountForEdit'
 import BookDetail from './pages/books/BookDetail'
 import UserList from './pages/users/UserList'
+import TransactionList from './pages/transaction/TransactionList'
 function App() {
   return (
     <BrowserRouter>
@@ -38,6 +39,7 @@ function App() {
             <Route path='/edit/discount/:id' element={<DiscountForEdit></DiscountForEdit>}></Route>
             <Route path='/users' element={<UserList></UserList>}></Route>
             <Route path='/availabilities'></Route>
+            <Route path='/transactions' element={<TransactionList></TransactionList>}></Route>
           </Routes>
         </main>
       </div>
